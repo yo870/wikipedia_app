@@ -1,0 +1,134 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background: #c2e59c;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 14px !important;
+}
+
+h1 {
+	font-weight:bold; 
+	font-size: 5em;
+	padding-top: 2%;
+}
+  
+h2 {
+	font-size: 2em;
+	padding-top: 1%;
+	padding-bottom: 1%;
+} 
+  
+h3 {
+	font-size: 1.5em;
+	text-align: left;
+	font-weight: bold; 	
+}
+
+h4 {
+	font-size: 1.1em;
+	text-align: left;
+	}
+
+section {
+	width: 80%;
+	text-align:center;
+	margin: 1.5% auto;
+}
+
+a {
+	text-decoration : none;
+	color: rgb(51, 51, 51);
+}
+
+a:hover {
+	text-decoration : none;
+	color: #cc474e !important;
+}
+
+a, a:active, a:visited, a:focus {
+	text-decoration : none !important;
+	color: rgb(51, 51, 51);
+}
+
+article {
+	margin-top: 2%;
+}
+	
+#searchbox {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1.8em;
+	background: transparent;
+	text-decoration : none;
+	height: 50px;
+	width: 350px;
+	border: 5px solid rgb(51, 51, 51);
+	border-radius: 10px;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+
+#searchbutton {
+	position: absolute;
+	display: inline;
+	margin-left: 20px;
+	margin-top: 0.25%;
+	background: transparent;
+}
+
+
+footer {
+ 	width: 80%;
+	border-top: solid grey 1px;
+ 	margin: 4% auto 2% auto;
+	text-align: center;
+	}
+
+footer p a {
+	text-decoration: none !important;
+	color: rgb(51, 51, 51);
+	font-weight: bold !important; 
+}
+
+footer p {
+ 	text-align: center;
+	font-size: 12px
+ 	}
+
+	
+@media only screen and (max-width: 667px) {
+    html, body {
+       font-size: 10px !important;
+    }
+	h1 {
+	  font-size: 4em;
+	  padding-top: 2%;
+	 }
+	h2 {
+		font-size: 1.75em;
+		padding-top: 1%;
+		padding-bottom: 1%;
+	}
+	a:hover {
+		color: rgb(51, 51, 51) !important;
+	}
+	section {
+		width: 90%;
+		margin: 1.5% auto;
+	}
+	#searchbox {
+		font-size: 1.5em;
+		height: 30px;
+		width: 70%;
+		border: 2px solid rgb(51, 51, 51);
+		border-radius: 10px;
+	}
+}
+	
+
+  
